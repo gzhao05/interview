@@ -64,7 +64,7 @@ Follow these test points when verify the consult letter:
             },
         ]
     )
-    print(consult_letter)
+
     assert result.upper() == "PASS"
 
 

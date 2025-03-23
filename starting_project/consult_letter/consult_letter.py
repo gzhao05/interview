@@ -86,5 +86,5 @@ def create_consult_letter(
                 """,
             },
         ])
-    print(result)
+
     return result
