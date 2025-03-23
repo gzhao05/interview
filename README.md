@@ -12,7 +12,7 @@ Through testing the ```create_consult_letter``` function on ```test_consult_lett
 
 ## **Running the test file**: 
 
-If running on local IDE, enter this line in the terminal to test ```create_consult_letter``` on a sample input:
+Enter this line in the terminal to test ```create_consult_letter``` on a sample input (originally run on PyCharm):
 
 ```python3 -m  pytest -vv test_consult_letter.py```
 
