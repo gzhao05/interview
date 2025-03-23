@@ -10,7 +10,7 @@ I relied entirely on prompting to generate the consult letter. I included instru
 
 Through testing the ```create_consult_letter``` function on ```test_consult_letter.py```, I fine-tuned the prompt to add instructions like including dates associated with past procedures and noting if any fields like physical examination or past surgical history were missing.
 
-## **Running test_consult_letter.py**: 
+## **Running the test file**: 
 
 If running in Pycharm, enter this line in the terminal to test ```create_consult_letter``` on a sample input:
 
