@@ -5,7 +5,7 @@ Contains three files: `consult_letter.py` for prompting the generation of the co
 
 ## Generating the letter: 
 
-The `create_consult_letter` function in `consult_letter.py` generates the consult letter using `chat_content` in `openai_chat.py`.
+The `create_consult_letter` function in `consult_letter.py` generates the consult letter using `chat_content` from `openai_chat.py`.
 
 I relied entirely on prompting to generate the consult letter. I included instructions such as writing the letter in an email format and organizing it by SOAP.
 
@@ -13,7 +13,7 @@ Through testing the ```create_consult_letter``` function on input in ```test_con
 
 ## **Running the test file**: 
 
-Enter this line in the terminal to test ```create_consult_letter``` on a sample input (originally run on PyCharm):
+Enter this line in the terminal to test ```create_consult_letter``` on a sample input in `test_consult_letter.py` (originally run on PyCharm):
 
 ```python3 -m  pytest -vv test_consult_letter.py```
 
