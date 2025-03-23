@@ -52,7 +52,7 @@ The consult letter is as following, delimited by ```:
                 "content": f"""\
 Follow these test points when verify the consult letter:
 - The letter shall have doctor's name "John Doe"
-- The letter shall mention patient name as Jane, and the encounter happened at 2022/01/01
+- The letter shall mention patient name as Jane, and the encounter happened on January 1, 2022.
 - The Patient had COVID-19 in 2021 with subsequent heart pain but found okay.
 - The patient had a cesarean section in 2019 and an abortion due to a fetal health issue.
 - Allergic to minocycline.
@@ -64,9 +64,10 @@ Follow these test points when verify the consult letter:
             },
         ]
     )
-
+    print(consult_letter)
     assert result.upper() == "PASS"
 
 
 # - No issues such as asthma, heart problems, seizures, or migraines. Active with yoga and walking.
 # - The patient is currently pregnant with her third child
+test_create_consult_letter()
